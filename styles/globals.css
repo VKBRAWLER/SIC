@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  --th: #595e70;
+  --g1: #ffffff;
+  --g2: #dddddd;
+}
+:root {
+  font-family: 'monoregu';
+}
+@font-face {
+  font-family: "monosemi";
+  src: url("/static/fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "monobold";
+  src: url("/static/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "monomedi";
+  src: url("/static/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "monoregu";
+  src: url("/static/fonts/Montserrat-Regular.ttf");
+}
+body {
+  background: linear-gradient(to left, var(--g1), var(--g2));
+}
+main {
+  min-height: 80vh;
+}
+h1 {
+  font-family: 'monobold';
+}
+h2 {
+  font-family: 'monosemi';
+}
+h3 {
+  font-family:  'monomedi';
+}

@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
-import Header from "@/components/header";
+import Footer from "@components/Footer";
+import Header from "@components/header";
 
 export const metadata = {
   title: "TBI",
@@ -9,9 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="min-h-screen">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

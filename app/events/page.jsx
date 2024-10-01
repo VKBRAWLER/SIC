@@ -1,5 +1,8 @@
 import SlideShow from "@components/SlideShow";
-
+export const metadata = {
+  title: "Events | TBI",
+  description: "Events of Technology Business Incubator",
+};
 const EventsPage = () => {
   const imageList =[
     'static/img/S1.png', 
@@ -11,8 +14,8 @@ const EventsPage = () => {
     'static/img/S7.png',
   ]
   return (
-    <main>
-      <SlideShow image={imageList} ratio="h-auto"/>
+    <main className="mt-4">
+      <SlideShow image={imageList}/>
       
     </main>
   )
