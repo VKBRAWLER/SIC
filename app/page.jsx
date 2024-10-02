@@ -1,8 +1,8 @@
 import ServiceBox from "@components/ServiceBox";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
-export default function Home() {
 
+export default function Home() {
   return (
     <main>
       <section className="h-[80vh] flex justify-center flex-col lg:flex-row lg:justify-around py-5 pl-[4vw] rounded-2xl m-10">
@@ -18,4 +18,4 @@ export default function Home() {
       <ServiceBox />
     </main>
   );
-}
+};

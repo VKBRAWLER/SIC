@@ -1,9 +1,9 @@
 "use client";
 import Link from 'next/link';
 import { GiHamburgerMenu } from "react-icons/gi";
-
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/dropdown";
 import { Button } from '@nextui-org/button';
+
 const Header = () => {
   return (
     <header className="flex h-24 justify-between items-center lg:items-end px-[2em] py-2">
@@ -29,7 +29,7 @@ const Header = () => {
       </Dropdown>
       <img src="static/img/geuLogo.png" className="h-20 hidden lg:block" />
     </header>
-  );
+  )
 };
 
 export default Header;

@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import Footer from "@components/Footer";
-import Header from "@components/header";
+import Header from "@components/Header";
 
 export const metadata = {
   title: "TBI",
@@ -17,4 +17,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};

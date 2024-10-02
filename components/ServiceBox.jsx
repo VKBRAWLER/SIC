@@ -20,6 +20,7 @@ const ServiceBox = () => {
       ))}
       </section>
   </>
-  );
-}
+  )
+};
+
 export default ServiceBox;
